@@ -14,6 +14,7 @@
     <br>
 
     <form action="" method="post">
+      <!-- Text inputs -->
       <label for="username">Your Name*:</label>
       <input type="text" id="username" name="username" placeholder="Enter Username" required>
       <br><br>
@@ -30,6 +31,7 @@
       <input type="password" id="password" name="password" placeholder="Enter Password" required>
       <br><br>
 
+      <!-- Radio buttons -->
       <p>Gender of Dog*:</p>
       <input type="radio" id="male" name="gender" value="male" required>
       <label for="male">Male</label>
@@ -37,6 +39,7 @@
       <label for="female">Female</label>
       <br><br>
 
+      <!-- Checkboxes -->
       <p>Skills of Dog:</p>
       <input type="checkbox" id="can_jump" name="skills" value="can_jump">
       <label for="can_jump">Can Jump</label>
@@ -49,6 +52,7 @@
       <label for="all_above">All Above</label>
       <br><br>
 
+      <!-- Dropdown -->
       <label for="breed">Is it special breed:</label>
       <select id="breed" name="breed">
         <option value="yes">Yes</option>
@@ -57,18 +61,22 @@
       </select>
       <br><br>
 
+      <!-- Date -->
       <label for="dob">Date of Birth*:</label>
       <input type="date" id="dob" name="dob" required>
       <br><br>
 
+      <!-- File -->
       <label for="pic_of_dog">Photo of Dog*:</label>
       <input type="file" id="pic_of_dog" name="pic_of_dog" required>
       <br><br>
 
+      <!-- Textarea -->
       <label for="bio">Short Bio:</label><br>
       <textarea id="bio" name="bio" rows="4" cols="30" placeholder="About Your Dog"></textarea>
       <br><br>
       
+      <!-- Buttons -->
       <input type="submit" value="Register">
       <input type="reset" value="Clear Form">
 
