@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>best-website.com</title>
+    
+  </head>
+
+  <body>
+    <h1>Contest Registration Page</h1>
+    <h3>You need to carefully fill the blanks to attend in Contest</h3>
+    <p>Required ones are marked with *</p>
+    <br>
+
+    <form action="" method="post">
+      <label for="username">Your Name*:</label>
+      <input type="text" id="username" name="username" placeholder="Enter Username" required>
+      <br><br>
+
+      <label for="dog_name">Dog name*:</label>
+      <input type="text" id="dog_name" name="dog_name" placeholder="Enter Your Dog's Name" required>
+      <br><br>
+
+      <label for="email">Email*:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Email" required>
+      <br><br>
+
+      <label for="password">Password*:</label>
+      <input type="password" id="password" name="password" placeholder="Enter Password" required>
+      <br><br>
+
+      <p>Gender of Dog*:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label>
+      <br><br>
+
+      <p>Skills of Dog:</p>
+      <input type="checkbox" id="can_jump" name="skills" value="can_jump">
+      <label for="can_jump">Can Jump</label>
+      <input type="checkbox" id="can_sit" name="skills" value="can_sit">
+      <label for="can_sit">Can Sit</label>
+      <br>
+      <input type="checkbox" id="can_play" name="skills" value="can_play">
+      <label for="can_play">Can Play</label>
+      <input type="checkbox" id="all_above" name="skills" value="all_above">
+      <label for="all_above">All Above</label>
+      <br><br>
+
+      <label for="breed">Is it special breed:</label>
+      <select id="breed" name="breed">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="private">Prefer not to say</option>
+      </select>
+      <br><br>
+
+      <label for="dob">Date of Birth*:</label>
+      <input type="date" id="dob" name="dob" required>
+      <br><br>
+
+      <label for="pic_of_dog">Photo of Dog*:</label>
+      <input type="file" id="pic_of_dog" name="pic_of_dog" required>
+      <br><br>
+
+      <label for="bio">Short Bio:</label><br>
+      <textarea id="bio" name="bio" rows="4" cols="30" placeholder="About Your Dog"></textarea>
+      <br><br>
+      
+      <input type="submit" value="Register">
+      <input type="reset" value="Clear Form">
+
+
+    </form>
+
+  </body>
+  
+  
+</html>
